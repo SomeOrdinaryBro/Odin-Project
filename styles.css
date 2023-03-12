@@ -1,75 +1,91 @@
 /* -- Global styles -- */
 
 * {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     image-rendering: optimizeSpeed;
-}
-
-footer {
+  }
+  
+  footer {
     display: flex;
     justify-content: center;
-}
-
-.buton-1, .buton-2, .buton-3 {
+  }
+  
+  .buton-1,
+  .buton-2,
+  .buton-3 {
     margin: 0 10px;
-}
-
-/* -- index.html -- */
-
-.head-h1 {
+  }
+  
+  /* Inherit link color */
+  a {
+    color: inherit;
+  }
+  
+  /* -- index.html -- */
+  
+  .head-h1 {
     color: white;
     background-color: black;
     text-align: center;
-}
-
-.picture-h3 {
+  }
+  
+  .picture-h3 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-}
-
-.foot-h2 {
+  }
+  
+  .foot-h2 {
     color: white;
     background-color: black;
-}
-
-.link-list {
+  }
+  
+  .link-list {
     color: black;
-}
-
-.repolink {
+  }
+  
+  /* Style repository link */
+  .repolink {
     display: flex;
     justify-content: center;
-}
-
-.repolink {
     margin: 0 10px;
-}
-
-/* -- recipes pages -- */
-
-.page5-title,
-.page5-decripton,
-.page5-ingredients,
-.page5-steps,
-.page4-title,
-.page4-description,
-.page4-ingredients,
-.page4-steps,
-.page3-title,
-.page3-description,
-.page3-ingredients,
-.page3-steps,
-.page2-title,
-.page2-decriotiions,
-.page2-ingredients,
-.page2-steps,
-.page1,
-.page1-Spice-up,
-.page1-Ingredients,
-.page1-Steps,
-.page1-end {
+  }
+  
+  .repolink a {
+    display: flex;
+    align-items: center;
+    outline: none;
+  }
+  
+  .repolink a img {
+    margin-right: 5px;
+  }
+  
+  /* -- recipes pages -- */
+  
+  .page1,
+  .page2-title,
+  .page2-decriotiions,
+  .page2-ingredients,
+  .page2-steps,
+  .page3-title,
+  .page3-description,
+  .page3-ingredients,
+  .page3-steps,
+  .page4-title,
+  .page4-description,
+  .page4-ingredients,
+  .page4-steps,
+  .page5-title,
+  .page5-decripton,
+  .page5-ingredients,
+  .page5-steps,
+  .page1-Spice-up,
+  .page1-Ingredients,
+  .page1-Steps,
+  .page1-end {
     background-color: black;
     color: white;
-}
+  }
+  
