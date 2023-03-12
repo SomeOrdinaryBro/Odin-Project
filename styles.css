@@ -1,3 +1,50 @@
+/* -- Global styles -- */
+
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    image-rendering: optimizeSpeed;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.buton-1, .buton-2, .buton-3 {
+    margin: 0 10px;
+}
+
+/* -- index.html -- */
+
+.head-h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.picture-h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.foot-h2 {
+    color: white;
+    background-color: black;
+}
+
+.link-list {
+    color: black;
+}
+
+/* -- buffalo-chicken-grilled-cheese.html -- */
+
+.page1,
+.page1-Spice-up,
+.page1-Ingredients,
+.page1-Steps,
+.page1-end {
+    background-color: black;
+    color: white;
 }
