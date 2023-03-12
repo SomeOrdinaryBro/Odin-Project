@@ -38,8 +38,21 @@ footer {
     color: black;
 }
 
+.repolink {
+    display: flex;
+    justify-content: center;
+}
+
+.repolink {
+    margin: 0 10px;
+}
+
 /* -- recipes pages -- */
 
+.page5-title,
+.page5-decripton,
+.page5-ingredients,
+.page5-steps,
 .page4-title,
 .page4-description,
 .page4-ingredients,
